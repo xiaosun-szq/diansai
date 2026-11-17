@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../E_CPU0/"
+    },
+    {
+      "path": "../E_CPU1/"
+    }
+  ],
+  "settings": {
+    "cmake.options.statusBarVisibility": "visible",
+    "clangd.arguments": [
+      "--query-driver=${env:ARM_GCC_TOOLCHAIN_PATH}*",
+      "--compile-commands-dir=${workspaceFolder}",
+      "--background-index"
+    ]
+  }
+}
